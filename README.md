@@ -48,15 +48,15 @@ for action in actions {
     stack.push(action)
 }
 
-//Peek at order
+//Peek at action
 var action = stack.peekAtStack()
 
-print("Peek at Order Id: \(action)")
+print("Peek at action: \(action)")
 
-//Process each order as recieved
+//Pop Action off the Stack
 action = stack.pop()
 
-print("Dequeue Order Id: \(action)")
+print("Pop action off: \(action)")
 
 //...
 
