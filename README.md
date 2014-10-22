@@ -1,4 +1,4 @@
-Adds Swift Array Extensions to for Stack and Queue operations.
+#Adds Swift Array Extensions for Stack and Queue operations.
 
 
 ```swift
