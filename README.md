@@ -4,6 +4,7 @@
 ```swift
 import Foundation
 
+//Mutating keyword offers no thread-safe guarantees for value types
 extension Array {
     
     //Stack - LIFO
