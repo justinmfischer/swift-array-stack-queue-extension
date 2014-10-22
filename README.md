@@ -32,4 +32,54 @@ extension Array {
         return self.first
     }
 }
+
+//
+// Examples
+//
+
+//Stack Example
+var stack = [String]()
+
+//Word processing actions Array
+let actions = ["Font-Color", "Font-Size", "New-Tab", "New-Document"]
+
+//Add each action to the Stack
+for action in actions {
+    stack.push(action)
+}
+
+//Peek at order
+var action = stack.peekAtStack()
+
+print("Peek at Order Id: \(action)")
+
+//Process each order as recieved
+action = stack.pop()
+
+print("Dequeue Order Id: \(action)")
+
+//...
+
+//Queue Example
+var queue = [Int]()
+
+//Order Ids Array
+let orders = [1976787, 2643009, 3762923]
+
+//Add each order into Queue
+for order in orders {
+    queue.enqueue(order)
+}
+
+//Peek at order
+var order = queue.peekAtQueue()
+
+print("Peek at Order Id: \(order)")
+
+//Process each order as recieved
+order = queue.dequeue()
+
+print("Dequeue Order Id: \(order)")
+
+//...
 ```
