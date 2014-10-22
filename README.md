@@ -1,7 +1,4 @@
-swift-array-stack-queue-extension
-=================================
-
-Swift Array Extensions to add Stack and Queue operations.
+Adds Swift Array Extensions to for Stack and Queue operations.
 
 
 ```swift
