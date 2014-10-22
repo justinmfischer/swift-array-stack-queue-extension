@@ -50,12 +50,10 @@ for action in actions {
 
 //Peek at action
 var action = stack.peekAtStack()
-
 print("Peek at action: \(action)")
 
 //Pop Action off the Stack
 action = stack.pop()
-
 print("Pop action off: \(action)")
 
 //...
@@ -73,12 +71,10 @@ for order in orders {
 
 //Peek at order
 var order = queue.peekAtQueue()
-
 print("Peek at Order Id: \(order)")
 
 //Process each order as recieved
 order = queue.dequeue()
-
 print("Dequeue Order Id: \(order)")
 
 //...
