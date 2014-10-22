@@ -18,6 +18,10 @@ extension Array {
         return self.removeLast()
     }
     
+    func peekAtStack() -> T? {
+        return self.last
+    }
+    
     //Queue - FIFO
     mutating func enqueue(newElement: T) {
         self.append(newElement)
@@ -27,8 +31,7 @@ extension Array {
         return self.removeAtIndex(0)
     }
     
-    //Common
-    func peek() -> T? {
+    func peekAtQueue() -> T? {
         return self.first
     }
 }
