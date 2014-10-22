@@ -3,6 +3,8 @@ swift-array-stack-queue-extension
 
 Swift Array Extensions to add Stack and Queue operations.
 
+
+```swift
 import Foundation
 
 extension Array {
@@ -30,3 +32,4 @@ extension Array {
         return self.first
     }
 }
+```
