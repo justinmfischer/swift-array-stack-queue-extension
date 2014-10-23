@@ -42,7 +42,7 @@ extension Array {
 var stack = [String]()
 
 //Word processing actions Array
-let actions = ["Font-Color", "Font-Size", "New-Tab", "New-Document"]
+let actions = ["Font-Color", "Font-Size", "Font-Weight"]
 
 //Add each action to the Stack
 for action in actions {
